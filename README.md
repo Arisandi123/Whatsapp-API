@@ -2,7 +2,7 @@
 
 
 
-```STEP 1````
+``` STEP 1 ```
 CREATE SUBDOMAIN
 ***NOTE : DONT USE PUBLIC_HTML***
 
