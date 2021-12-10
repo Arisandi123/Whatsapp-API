@@ -2,7 +2,7 @@
 
 
 
-``` STEP 1 ```
-CREATE SUBDOMAIN
+``` STEP 1 ```</br>
+CREATE SUBDOMAIN</br>
 ***NOTE : DONT USE PUBLIC_HTML***
 
