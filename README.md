@@ -5,6 +5,8 @@
 ``` STEP 1 ```</br>
 CREATE SUBDOMAIN</br>
 ***NOTE : DONT USE PUBLIC_HTML***
+Just like this, dont use folder inside public_html
+<img src="IMG_20211210_233520.jpg" />
 
 ``` STEP 2 ```</br>
 IN SETUP NODE JS FOLLOW LIKE THIS, THE FOLDER MUST BE OUTSIDE PUBLIC_HTML
