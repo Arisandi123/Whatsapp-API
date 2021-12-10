@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Donasi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link  rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- this is the markup. you can change the details (your own name, your own avatar etc.) but don’t change the basic structure! -->
+
+<aside class="profile-card">
+
+    <header>
+    
+        <!-- here’s the avatar -->
+        <a href="http://ditzzsenpai.xyz/">
+            <img src="https://i.ibb.co/SKb8LQz/IMG-20211209-WA0035.jpg" />
+        </a>
+        
+        <!-- the username -->
+        <h1>Ditzzy</h1>
+        
+        <!-- and role or location -->
+        <h2>Web Developer</h2>
+    
+    </header>
+
+    <!-- bit of a bio; who are you? -->
+    <div class="profile-bio">
+    
+        <p>Even when everything is perfect, you can always make it better. Break barriers in your head, create something crazy and don't forget Code is Poetry...</p>
+    
+
+    </div>
+
+    <!-- some social links to show off -->
+    <ul class="profile-social-links">
+    	<button class="button belikopi">Buy me coffee?</button>
+
+
+        <!-- twitter - el clásico  -->
+     
+        
+        <!-- add or remove social profiles as you see fit -->
+    
+    </ul>
+
+</aside>
+<!-- that’s all folks! -->
+<!-- partial -->
+	
+		<script>    
+document.querySelector(".button").addEventListener("click", function() {    
+swal({
+  title: 'Donasi',
+  imageUrl: 'https://i.ibb.co/SKb8LQz/IMG-20211209-WA0035.jpg',
+  
+  imageAlt: 'Donasi',
+  background: '#fff',
+  backdrop: `
+    rgba(0,0,123,0.4)
+    url("https://sweetalert2.github.io/images/nyan-cat.gif")
+    left top
+    no-repeat
+  `,
+  width: 600,
+  text: "Pilih Salah Satu Kak",
+  showConfirmButton: true,
+  showCancelButton: true,
+  confirmButtonColor: '#ec008c',
+  cancelButtonColor: '#ec008c',
+  confirmButtonText:'<span onclick="my2()">Saweria</span>',
+  cancelButtonText:'<span onclick="my3()">Paypal</span>',
+  padding: '3em',
+  timer: 10000,
+  background: '#fff url(bg.jpg)',
+  backdrop: `
+    rgba(0,0,123,0.4)
+    center left
+    no-repeat
+  `
+})
+
+});
+function my2() {
+ window.location.href = "https://saweria.co/ditzzxy/";   
+} 
+function my3() {
+ window.location.href = "https://paypal.me/ditzxy/";   
+} 
+  
+  
+          
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+
+
+
+</body>
+</html>
